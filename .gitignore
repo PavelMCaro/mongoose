@@ -1,0 +1,8 @@
+**/package-lock.json
+**/node_modules
+**/yarn-error.log
+app/client/dist/*
+.env.local
+package-lock.json
+.idea/
+npm-debug.log
