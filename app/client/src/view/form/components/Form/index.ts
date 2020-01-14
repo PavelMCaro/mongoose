@@ -1,1 +1,1 @@
-export { FormContainer } from './FormContainer';
+export { PersonForm } from './Form';

@@ -1,3 +1,3 @@
-import { FormContainer } from './components/Form';
+import { PersonForm } from './components/Form';
 
-export { FormContainer as FormFeature }
+export { PersonForm as FormFeature }

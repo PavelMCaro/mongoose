@@ -1,16 +1,17 @@
 {
     "compilerOptions": {
-        "target": "ES5",
-        "module": "esnext",
-        "moduleResolution":"node",
-        "jsx": "react",
-        "lib": [
-            "dom",
-            "es2015",
-            "es2015.promise"
-        ]
+      "target": "ES5",
+      "module": "esnext",
+      "allowJs": true,
+      "moduleResolution":"node",
+      "jsx": "react",
+      "lib": [
+        "dom",
+        "es2015",
+        "es2015.promise"
+      ]
     },
     "exclude": [
-        "node_modules"
+      "node_modules"
     ]
 }

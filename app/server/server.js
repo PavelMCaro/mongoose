@@ -10,8 +10,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors());
 
-app.get('/', (req, res) => res.send('Hello World'));
-
 mongoose.connect('mongodb://localhost:27017/Authors', {
     useNewUrlParser: true, useUnifiedTopology: true
 }).then(() => {
